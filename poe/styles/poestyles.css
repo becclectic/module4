@@ -1,0 +1,99 @@
+
+
+body {
+max-width: 60em;
+margin: 0 auto 0 auto;
+background-image: url("../images/nightclouds.jpg");
+background-color: black;
+}
+
+table, th, td {
+border-collapse: collapse;
+border: 1px solid #B4C6C7;
+padding: 1em;
+color: #B4C6C7;
+margin-left: auto;
+margin-right: auto;
+}
+
+th {
+	background-color: black;
+	color:#B4C6C7;
+}
+
+body p {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	color: #B4C6C7;
+}
+
+h1, h2 {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	text-align: center;
+	color: #B4C6C7;
+}
+
+caption {
+	padding: 5px;
+	font-style: italic;
+	color: #B4C6C7;
+}
+
+table {
+	border-color: white;
+}
+
+.name {
+	background-color: #061820;
+	color: #B4C6C7;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+/*ended up not using this!
+.content {
+} */
+
+.readings {
+	text-align: center;
+	/*I had some trouble centering this list, so I will be revisiting later*/
+}
+
+
+/*Links*/
+a:link {
+	text-decoration: none;
+	color: #B4C6C7;
+}
+
+a:hover {
+	text-decoration: none;
+	color:#24C0CC;
+}
+
+a:visited {
+	text-decoration: line-through;
+}
+
+/*
+a:link, a:visited { 
+	background-color: white;
+	padding: 7px;
+	border-radius: 10px;  
+background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+
+to do:
+- table color
+- table center
+- first table entries backgorund color
+- backgorund images
+- change colors
+- padding on top and bottom
